@@ -10,17 +10,27 @@
 
 int main(void)
 {
-	int i;
+	int c;
+	int d = 0;
 
-	for (i = 0; i < 90; i++)
+	while (d < 10)
 	{
-		putchar((i / 10) + '0');
-		putchar((i % 10) + '0');
-		if (i != 89)
+		c = 0;
+		while (c < 10)
 		{
-			putchar(',');
-			putchar(' ');
+			if (d != c && d < c)
+			{
+				putchar('0' + d);
+				putchar('0' + c);
+				if ((c + d) != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			c++;
 		}
+		d++;
 	}
 	putchar('\n');
 
