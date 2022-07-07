@@ -6,7 +6,7 @@
  * Return: void
  */
 
-int print_line(int n)
+void print_line(int n)
 {
 	for (; n > 0; i--)
 	{

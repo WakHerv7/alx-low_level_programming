@@ -6,7 +6,7 @@
  * Return: void
  */
 
-int print_square(int n)
+void print_square(int n)
 {
 	int x;
 	int y;
