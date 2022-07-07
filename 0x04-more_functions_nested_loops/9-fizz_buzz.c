@@ -2,8 +2,7 @@
 
 /**
  * main - print fizz buzz
- * @n: size of line
- * Return: void
+ * Return: Always 0 (Success)
  */
 
 int main(void)
