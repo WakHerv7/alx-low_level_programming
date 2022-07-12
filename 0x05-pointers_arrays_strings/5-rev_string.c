@@ -24,5 +24,4 @@ void rev_string(char *s)
 		s[i] = s[fcounter];
 		s[fcounter] = rev;
 	}
-	_putchar('\n');
 }
