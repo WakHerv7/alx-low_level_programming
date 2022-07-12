@@ -7,7 +7,7 @@
  * Return: integer
  */
 
-void _strlen(char *s)
+int _strlen(char *s)
 {
 	int i = 1;
 	int sum = 0;
