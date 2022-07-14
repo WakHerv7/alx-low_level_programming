@@ -4,8 +4,8 @@
  * _strncat - concatenate two strings
  * @dest: char
  * @src: char
- * @n: int, amount of bytes from src
- * Return: the pointer to dest.
+ * @n: int
+ * Return: character
  */
 
 char *_strncat(char *dest, char *src, int n)
