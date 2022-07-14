@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * leet - lowercase to uppercase
+ * leet - encodes a string into 1337
  * @s: input string
- * Return: Caps on first letter of a separator
+ * Return: the pointer to dest.
  */
 char *leet(char *s)
 {
 	int i, x;
-	char low_letters[] = {'a', 'e', 'o', 't', 'l'};
-	char upp_letters[] = {'A', 'E', 'O', 'T', 'L'};
-	char replacer[] = {'4', '3', '0', '7', '1'};
+	int low_letters[] = {'a', 'e', 'o', 't', 'l'};
+	int upp_letters[] = {'A', 'E', 'O', 'T', 'L'};
+	int replacer[] = {'4', '3', '0', '7', '1'};
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
