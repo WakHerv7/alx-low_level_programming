@@ -8,15 +8,15 @@
 char *leet(char *s)
 {
 	int i, x;
-	char find[5][2] = {{'a', 'A'},  {'e', 'E'}, {'o', 'O'},
-		{'t', 'T'}, {'l', 'L'}};
+	char low_letters[] = {'a', 'e', 'o', 't', 'l'};
+	char upp_letters[] = {'A', 'E', 'O', 'T', 'L'};
 	char replacer[] = {'4', '3', '0', '7', '1'};
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (x = 0; x < 5; x++)
 		{
-			if (find[x][0] == s[i] || find[x][1] == s[i])
+			if (low_letters[x] == s[i] || upp_letters[x] == s[i])
 			{
 				s[i] = replacer[x];
 			}
