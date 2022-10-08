@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int div(int a, int b)
+int mod(int a, int b)
 {
 	int c;
 
-	c = a / b;
+	c = a % b;
 
 	return(c);
 }
